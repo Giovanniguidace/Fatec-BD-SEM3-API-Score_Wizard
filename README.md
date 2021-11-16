@@ -26,14 +26,14 @@ A aplicação possui um cadastro de pessoa física e jurídica, e, com o cpf ou 
 
 #
 
-#### Tela de Login
+### Tela de Login
 
 Na tela de Login, é possível realizar o acesso com CPF ou CNPJ, pois o acesso é o mesmo para Pessoa Física e Pessoa Jurídica.
 
 ![image](https://user-images.githubusercontent.com/62898187/139615048-514bb650-e99d-4684-89b7-2957f6f0036f.png)
 
 #
-#### Tela de Cadastro de Pessoa Física ou Jurídica
+### Tela de Cadastro de Pessoa Física ou Jurídica
 
 Na tela de cadastro, é possível cadastrar tanto Pessoa Física quanto Jurídica.
 
@@ -41,19 +41,35 @@ Na tela de cadastro, é possível cadastrar tanto Pessoa Física quanto Jurídic
 
 #
 
-#### Tela Inicial
+### Tela Inicial
 
 Após realizar o login, o acesso será direcionado para a tela inicial da simulação.
 
 ![image](https://user-images.githubusercontent.com/62898187/142008215-7bc8c8ad-0282-4ed2-b62d-1362b4b06aff.png)
 
+#
 ### Tela para selecionar o objetivo
 
 Nesta tela, o usuário poderá selecionar o seu objetivo, para que a aplicação possa retornar a ele qual a porcentagem de alcançá-lo. Esta é uma forma de tornar a aplicação mais interessante ao usuário e ao mesmo tempo trazer uma informação útil no qual ele deseja naquele momento.
 
 ![image](https://user-images.githubusercontent.com/62898187/142009421-b9c27006-e192-4e94-989c-a60c649b7810.png)
 
+#
 
+### Tela para selecionar metas
+
+Nesta tela, o usuário deverá selecionar pelo menos uma opção para que o cálculo da simulação seja feito. Estas opções são trazidas pela aplicação, após a análise completa de seus dados. São metas que o usuário poderá cumprir e assim, chegar mais próximo de seu objetivo.
+
+![image](https://user-images.githubusercontent.com/62898187/142014566-aa341200-83d6-49a1-a41e-59bc6e9c5eb8.png)
+
+#
+### Tela com o resultado da simulação
+
+Nesta tela, o usuário será informado sobre qual a porcentagem que ele terá para conquistar seu objetivo, ao cumprir as metas selecionadas na tela anterior. Também é informado quanto ficará seu Score.
+
+![image](https://user-images.githubusercontent.com/62898187/142014688-c84e63e7-695e-436c-aab8-655fc0079831.png)
+
+#
 
 
 ## <b>⚙️ Tecnologias Adotadas na Solução:</b>
@@ -81,25 +97,37 @@ Particularmente, eu estava mais aprofundado em Python/Django devido aos outros p
 	*	Foi criada a User Story com BackLog definido:
 		![Captura_de_tela_de_2020-11-03_10-20-07](https://gitlab.com/giovannimarassi/score-wizard/uploads/7f1aa202cc3691d204566d00916cf5ab/Captura_de_tela_de_2020-11-03_10-20-07.png)
 
-	*	Exemplo de User Story:		![Untitled_Diagram](https://gitlab.com/giovannimarassi/score-wizard/uploads/94085ee0bc7062af878b22eeeb220407/Untitled_Diagram.png)
+	*	Exemplo de User Story:		
 
-*	Contribui também para a criação do Caso de Uso:		![CASO_DE_USO_-SCORE_WIZARD__3](https://gitlab.com/giovannimarassi/score-wizard/uploads/f20e716a081edc21bbe86301d5f21a81/CASO_DE_USO_-_SCORE_WIZARD__3_.png)
+![image](https://user-images.githubusercontent.com/62898187/142046214-3e3ceeb7-4a70-41bb-96ef-335040497ee5.png)
+
+
+*	Contribui também para a criação do Caso de Uso:		
+
+![CASO_DE_USO_-SCORE_WIZARD__3](https://gitlab.com/giovannimarassi/score-wizard/uploads/f20e716a081edc21bbe86301d5f21a81/CASO_DE_USO_-_SCORE_WIZARD__3_.png)
 
 * Criei o fluxograma de Cadastro de Pessoa Física; Cadastro de Pessoa Jurídica; Login; conforme imagens abaixo:
 
 	* Cadastro de Pessoa Física
+	
 ![Untitled__1_](https://gitlab.com/giovannimarassi/score-wizard/uploads/3dc6e9a6d03dca035a3b373b50abfaff/Untitled__1_.png)
 
-	*	Cadastro de Pessoa Jurídica
+* Cadastro de Pessoa Jurídica
+
 ![Untitled__2_](https://gitlab.com/giovannimarassi/score-wizard/uploads/55a603700a82f9c5ac6240ec6d2a3ae9/Untitled__2_.png)
 
-	*	Login
+*	Login
+
 ![Untitled__3_](https://gitlab.com/giovannimarassi/score-wizard/uploads/4d96ffa0717698e3700ac27f83767739/Untitled__3_.png)
 
 * Auxilio na formulação do cálculo de score:
 	*	O cálculo do Score não foi passado para a equipe, portanto houve a necessidade de estudar quais seriam os requisitos que seriam necessários para o cálculo do Score de cada pessoa física.
 	
 	Para entender melhor este estudo, clique no link: https://marbled-range-ed0.notion.site/Entenda-o-que-comp-e-o-c-lculo-do-Score-1348e1d22dbb49098a775e9d973c86e4
+
+* Desenvolvimento das telas do simulador:
+	*	As telas para que o usuário possa realizar a simulação foram desenvolvidas utilizando HTML/CSS/BootsTrap 4, e a linguagem de programação Javascript.
+
 
 ## <b>🧠 Aprendizados Efetivos</b>
 
