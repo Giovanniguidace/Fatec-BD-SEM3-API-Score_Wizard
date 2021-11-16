@@ -47,6 +47,12 @@ Após realizar o login, o acesso será direcionado para a tela inicial da simula
 
 ![image](https://user-images.githubusercontent.com/62898187/142008215-7bc8c8ad-0282-4ed2-b62d-1362b4b06aff.png)
 
+### Tela para selecionar o objetivo
+
+Nesta tela, o usuário poderá selecionar o seu objetivo, para que a aplicação possa retornar a ele qual a porcentagem de alcançá-lo. Esta é uma forma de tornar a aplicação mais interessante ao usuário e ao mesmo tempo trazer uma informação útil no qual ele deseja naquele momento.
+
+![image](https://user-images.githubusercontent.com/62898187/142009421-b9c27006-e192-4e94-989c-a60c649b7810.png)
+
 
 
 
